@@ -8,10 +8,12 @@ environment:
 
   matrix:
 
+    # error : build dependencies - hunter boost
     #- TOOLCHAIN: "ninja-vs-15-2017-win64-cxx17"
       #PROJECT_DIR: examples\WDC
       #APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
 
+    # error : build dependencies - hunter boost
     #- TOOLCHAIN: "nmake-vs-15-2017-win64-cxx17"
       #PROJECT_DIR: examples\WDC
       #APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
@@ -24,10 +26,12 @@ environment:
       PROJECT_DIR: examples\WDC
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
 
+    # error : build dependencies - hunter openssl
     #- TOOLCHAIN: "mingw-cxx17"
       #PROJECT_DIR: examples\WDC
       #APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
 
+    # error : build dependencies - hunter boost
     #- TOOLCHAIN: "msys-cxx17"
       #PROJECT_DIR: examples\WDC
       #APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
